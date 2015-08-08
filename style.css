@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	font-size: 12px;
+	line-height: 20px;
+	background: #FEFEFE;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	margin-bottom: 10px;
+	
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #F92672;
+}
+p{
+	line-height: 25px;
+	
+}
+
+.main{
+	width: 80%;
+	margin: 0px auto;
+	height: auto;
+
+}
+
+/*============MAIN STYLE START HEARE===========*/
+.header{
+	background: #FF5959;
+	min-height: 110px;
+}
+.logo{
+	float: left;
+	margin: 25px auto;
+}
+.nav{
+	margin-left: 42%;
+}
+.nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+.nav ul li{
+	float: left;
+	margin: 44px 0px;
+	
+}
+.nav ul li a{
+	padding: 10px 18px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+}
+.nav ul li:first-child{
+
+
+}
+.nav ul li a:hover{
+	background: #FC7D7D;
+	color: #fff;
+	border-radius: 6px;
+}
+
+/*==========Slider section start==============*/
+.slider{
+	background: #fff;
+	height: 450px;
+	position: relative;
+}
+.slider_img{
+	text-align: center;
+	margin: 80px auto;
+	height: 287px;
+	width: 8px;
+}
+.slider_text{
+	position: absolute;
+	top: 215px;
+	left: 280px;
+}
+.slider_text h2{
+	border: 2px solid #FF5959;
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 6px;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+.slider_text h2:hover{
+	background: #FF5959;
+	color: #fff;
+}
+
+/*==============services section start=============*/
+.services{
+	background: #E8E8E8;
+	min-height: 490px;
+}
+.service_title{
+	padding: 32px;
+}
+.service_title h2{
+	text-align: center;
+	background: url(img/border_img.png)bottom center no-repeat;
+	padding-bottom: 17px;
+	font-size: 30px;
+}
+.services_content{
+	
+}
+.service_text h2{
+	padding: 10px;
+}
+.service{
+	width: 30%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	margin: 1%;
+}
+.service_img{
+	text-align: center;
+}
+.service :last-child{
+	margin-right: 0%;
+}
+.service_text h2{
+	text-align: center;
+	
+}
+.service_text p{
+	text-align: center;
+	
+}
+.service h2{
+	text-transform: uppercase;
+}
+
+
+
+
+
+/*==========portfolio section==============*/
+
+.portfolio{
+	background: #FF5959;
+	min-height: 750px;
+}
+.portfolio_item_top{
+	
+}
+.top_item{
+	float: left;
+}
+.top_item img{
+	width: 523px;
+  margin: 8px;
+  height: auto;
+	
+}
+.bottom_item{
+	float: left;
+}
+.bottom_item img{
+	height: auto;
+	width: 253px;
+	margin: 8px;
+}
+
+/*===========Out team=============*/
+.team{
+	min-height: 600px;
+	background: #E8E8E8;
+}
+.team_profile{
+  float: left;
+  width: 22%;
+  text-align: center;
+  margin-right: 3%;
+
+}
+
+.team_profile a img{
+	margin: 3px;
+}
+
+.team_profile:last-child{
+	margin-right: 0px;
+}
+.team_man{
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  border:2px solid #FF5959;
+}
+.team_man:hover{
+	
+
+}
+.team_name_title{
+	margin-top: 12px;
+}
+
+
+/*=============blog section============*/
+.news{
+	background: #FF5959;
+	height: 750px;
+}
+.blog{
+  float: left;
+  width: 31%;
+  margin-right: 37px;
+}
+.blog:last-child{
+	margin-right: 0px;
+}
+.blog_img{
+	width: 333px;
+	height: 185px;
+}
+.blog_color h2{
+	color: #fff;
+}
+
+.blog_content{
+	padding: 10px 0px;
+	color: #fff;
+}
+.blog_content a h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.blog_content a h2:hover{
+	color: #000;
+}
+.blog_content p{
+	text-align: justify;
+	font-size: 12px;
+}
+.clender{
+	margin-bottom: 10px;
+}
+.clender img{
+	width: 17px;
+	height: auto;
+}
+.clender span{
+
+}
+.author img{
+	margin-right: 5px;
+	width: 17px;
+	height: auto;
+}
+.author{
+	margin: 10px 0px;
+}
+
+
+
+
+/*================contact us section==============*/
+.contact{
+	min-height: 450px;
+	background: #E8E8E8;
+}
+.contact_form{
+	float: left;/*
+	border:1px solid red;*/
+	width: 35%;
+
+}
+.contact_info{
+	width: 60%;
+	margin-left: 39%;
+}
+.contact_info p{
+	text-align: justify;
+	font-size: 13px;
+}
+.name{
+	width: 356px;
+	height: 17px;
+	margin-bottom: 12px;
+	border-radius: 7px;
+	border: none;
+	padding: 11px;
+}
+.textarea{
+	width: 354px;
+	padding: 11px;
+	border: none;
+	border-radius: 7px;
+}
+.views{
+	
+}
+.views h2{
+	  float: left;
+  width: 127px;
+  margin: 8px;
+  border: 2px solid #FF5959;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 6px;
+  color: #000;
+}
+.views h2:hover{
+	background: #FF5959;
+	color: #fff;
+}
+.address_text{
+	margin-top: 25px;
+}
+.address{
+	width: 200px;
+	float: left;
+}
+.arrow{
+	
+}
+
+/*===============FOOTER SECTION==============*/
+.footer{
+	min-height: 80px;
+	background: #FF5959;
+}
+.footer p{
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	padding: 35px;
+}
+.footer a{
+	color: #fff;
+}
+.footer a:hover{
+	color: black;
+}
+.logo{}
+.logo{}
+.logo{}
+.logo{}
+.logo{}
+.logo{}
+.logo{}
+.logo{}
+.logo{}
+.logo{}
